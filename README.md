@@ -93,4 +93,3 @@ Stay tuned for the addition of Gzip compression support, enhancing project perfo
 Feel free to reach out with any questions or suggestions!
 ```
 
-These commands will help users get started with your template, manage dependencies, and keep track of versions. Adjust the placeholders `<repository_url>` and `<repository_name>` accordingly.
