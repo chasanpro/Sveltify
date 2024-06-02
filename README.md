@@ -1,6 +1,3 @@
-Certainly! Here's how you can include the necessary commands to run, upgrade dependencies, and check versions in your readme:
-
-```markdown
 # Svelte + Vite + Tailwind 
 
 This template is designed to streamline your Svelte development process within the Vite ecosystem.
@@ -15,9 +12,9 @@ To get started with this template, follow these steps:
 
 1. Clone this repository to your local machine:
 
-```bash
-git clone https://github.com/chasanpro/Sveltify.git
-```
+   ```bash
+   git clone https://github.com/chasanpro/Sveltify.git
+   ```
 
 2. Navigate into the cloned repository:
 
