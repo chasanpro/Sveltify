@@ -1,3 +1,6 @@
+Certainly! Here's how you can include the necessary commands to run, upgrade dependencies, and check versions in your readme:
+
+```markdown
 # Svelte + Vite + Tailwind 
 
 This template is designed to streamline your Svelte development process within the Vite ecosystem.
@@ -5,6 +8,50 @@ This template is designed to streamline your Svelte development process within t
 ## Recommended IDE Setup
 
 For an optimized development experience, utilize [VS Code](https://code.visualstudio.com/) along with the [Svelte extension](https://marketplace.visualstudio.com/items?itemName=svelte.svelte-vscode).
+
+## Getting Started
+
+To get started with this template, follow these steps:
+
+1. Clone this repository to your local machine:
+
+```bash
+git clone <repository_url>
+```
+
+2. Navigate into the cloned repository:
+
+```bash
+cd <repository_name>
+```
+
+3. Install dependencies:
+
+```bash
+npm install
+```
+
+4. Start the development server:
+
+```bash
+npm run dev
+```
+
+## Upgrading Dependencies
+
+To upgrade dependencies to their latest versions, you can use:
+
+```bash
+npm update
+```
+
+## Checking Versions
+
+To check the versions of installed dependencies, you can use:
+
+```bash
+npm outdated
+```
 
 ## Why Choose This Template?
 
@@ -44,3 +91,6 @@ Created with the aim of optimizing development time, this template simplifies Sv
 Stay tuned for the addition of Gzip compression support, enhancing project performance.
 
 Feel free to reach out with any questions or suggestions!
+```
+
+These commands will help users get started with your template, manage dependencies, and keep track of versions. Adjust the placeholders `<repository_url>` and `<repository_name>` accordingly.
