@@ -12,9 +12,9 @@ To get started with this template, follow these steps:
 
 1. Clone this repository to your local machine:
 
-   ```bash
-   git clone https://github.com/chasanpro/Sveltify.git
-   ```
+```bash
+git clone https://github.com/chasanpro/Sveltify.git
+```
 
 2. Navigate into the cloned repository:
 
