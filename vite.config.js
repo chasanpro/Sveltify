@@ -24,5 +24,22 @@ export default defineConfig({
   },
   build: {
     minify: 'terser',
-  }
+    // Enable tree-shaking
+    rollupOptions: {
+      output: {
+        manualChunks: undefined, // Disable manual chunking
+        chunkFileNames: 'assets/[name]-[hash].js',
+        entryFileNames: 'assets/[name]-[hash].js',
+        assetFileNames: 'assets/[name]-[hash].[ext]'
+      },
+      treeshake: true,
+      plugins: [
+        terser({
+          compress: {
+            drop_console: true, // Drop console.* statements in production
+          },
+        }),
+      ],
+    },
+  },
 });
